@@ -14,7 +14,7 @@ body {
     
 }
 #links {
-    width: 100%; /* Use 100% para garantir que o container ocupe toda a largura disponível */
+    width: auto; /* Use 100% para garantir que o container ocupe toda a largura disponível */
     height: auto;
     overflow: hidden;
     background: rgb(85, 85, 85);
