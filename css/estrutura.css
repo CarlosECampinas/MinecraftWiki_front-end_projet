@@ -1,101 +1,121 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1e1e1e;
-    color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
+/* Define a fonte padrão, cor de fundo e cor do texto*/
+font-family: Arial, sans-serif;
+background-color: #1e1e1e; /* cor de fundo */
+color: #f4f4f4; /* cor do texto */
+margin: 0;
+padding: 20px; /* padding: espaço interno ao redor do conteúdo */
 }
 .container {
-    max-width: 1200px;
-    margin: auto;
-    background: #2e2e2e;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+/* Centraliza o conteúdo, define largura máxima e aplica estilos de fundo e borda */
+max-width: 1200px;
+margin: auto;
+background: #2e2e2e; /* cor de fundo do contêiner */
+padding: 20px; /* padding: espaço interno ao redor do conteúdo */
+border-radius: 8px; /* arredonda os cantos do contêiner */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra ao redor do contêiner */
 }
 header {
-    text-align: center;
-    margin-bottom: 20px;
+/* Centraliza o texto do cabeçalho */
+text-align: center;
+margin-bottom: 20px;
 }
 h1 {
-    margin: 0;
-    color: #4caf50;
+/* Define cor e margens do título principal */
+margin: 0;
+color: #4caf50; /* cor do título */
 }
 nav ul {
-    list-style: none;
-    padding: 0;
+/* Remove estilo de lista e padding(prenchimento) dos itens de navegação */
+list-style: none;
+padding: 0;
 }
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+/* Exibe os itens da lista em linha e adiciona margem */
+display: inline;
+margin: 0 10px;
 }
 nav ul li a {
-    text-decoration: none;
-    color: #f4f4f4;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s;
+/* Estiliza os links de navegação */
+text-decoration: none;
+color: #f4f4f4; /* cor dos links */
+padding: 10px 15px; /* padding: espaço interno ao redor do texto do link */
+border-radius: 5px; /* arredonda os cantos dos links */
+transition: background 0.3s; /* adiciona uma transição suave para a cor de fundo */
 }
 nav ul li a:hover {
-    background: #4caf50;
+/* Muda a cor de fundo dos links ao passar o mouse */
+background: #4caf50; /* cor de fundo ao passar o mouse */
 }
 .section {
-    margin-bottom: 40px;
-    text-align: center;
+/* Define margens e centraliza o texto das seções */
+margin-bottom: 40px;
+text-align: center;
 }
 .structure {
-    margin-bottom: 20px;
+/* Adiciona uma margem inferior aos artigos das estruturas */
+margin-bottom: 20px;
 }
 .structure h3 {
-    color: #4caf50;
-    margin: 10px 0;
+/* Define a cor do texto dos títulos e ajusta a margem */
+color: #4caf50; /* cor dos títulos das estruturas */
+margin: 10px 0;
 }
+/* Estiliza as funções nas imagens*/
 .img-container {
-    margin: 10px 0;
-    display: inline-block;
+/* Adiciona margens e exibe o contêiner de imagem como bloco em linha */
+margin: 10px 0;
+display: inline-block;
 }
 .thumbnail {
-    cursor: pointer;
-    transition: transform 0.2s;
-    border-radius: 5px;
+/* Estiliza as miniaturas */
+cursor: pointer;
+transition: transform 0.2s; /* adiciona uma transição suave para transformações */
+border-radius: 5px; /* arredonda os cantos das miniaturas */
 }
 .thumbnail:hover {
-    transform: scale(1.05);
+/* Amplia a miniatura ao passar o mouse */
+transform: scale(1.05); /* aplica uma transformação de escala */
 }
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.9);
+/* Define o estilo da janela modal */
+display: none;
+position: fixed; /* fixa a posição do modal na tela */
+z-index: 1; /* define a prioridade da camada do modal */
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto; /* permite rolagem se necessário */
+background-color: rgba(0,0,0,0.9); /* cor de fundo semitransparente */
 }
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+/* Centraliza o conteúdo da janela modal */
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
 }
 .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
+/* Estiliza o botão de fechar a janela modal */
+position: absolute;
+top: 15px;
+right: 35px;
+color: #f1f1f1; /* cor do botão de fechar */
+font-size: 40px;
+font-weight: bold;
 }
 .close:hover,
 .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+/* Altera a cor do botão de fechar ao passar o mouse ou em foco */
+color: #bbb; /* cor do botão ao passar o mouse */
+text-decoration: none;
+cursor: pointer; /* cursor do tipo mãozinha */
 }
 .more-link {
-    color: #4caf50;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
+/* Estiliza os links "Saiba mais..." */
+color: #4caf50; /* cor dos links "Saiba mais..." */
+text-decoration: none;
+margin-top: 10px;
+display: inline-block;
 }
